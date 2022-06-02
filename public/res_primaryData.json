@@ -1,0 +1,27 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I am a passionate software engineer who graduated from Full Stack Academy of code. I have experience using JavaScript, SQL, Node.JS, Express, Sequelize, PostgresSQL, React, and PHP. My ability to problem solve, learn, adapt, collaborate well in a team environment, and actively listening will make me a great asset to a team in all areas. ",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "experience": [
+    {
+      "company": "Bold BroadCasting Media",
+      "title": "Full-Stack Developer",
+      "years": "9/2021 - 12/2021",
+      "mainTech": ["React", "PHP", "SQL"],
+      "technologies": [
+        "REST API",
+        "JavaScript",
+        "Bootstrap",
+        "PHP Admin",
+        "MySQL"
+      ]
+    }
+  ]
+}

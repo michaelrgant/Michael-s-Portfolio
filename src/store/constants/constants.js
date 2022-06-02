@@ -1,0 +1,2 @@
+export const GET_BASIC_DATA = "GET_BASIC_DATA";
+export const GET_PRIMARY_DATA = "GET_PRIMARY_DATA";

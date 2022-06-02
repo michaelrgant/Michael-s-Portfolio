@@ -1,0 +1,77 @@
+{
+  "basic_info": {
+    "name": "Michael Gant",
+    "titles": [
+      "Software-Engineer",
+      "Full-Stack-Developer",
+      "Front-End-Developer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/michaelrgant",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.linkedin.com/in/michael-gant/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "../images/oneHub.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "95"
+      },
+      { "name": "React", "class": "devicon-react-plain", "level": "95" },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Postgresql",
+        "class": "devicon-postgresql-plain",
+        "level": "90"
+      },
+      { "name": "Sequlize", "class": "devicon-sequelize-plain", "level": "90" },
+
+      { "name": "Express", "class": "devicon-express-original", "level": "80" },
+
+      { "name": "NodeJS", "class": "devicon-nodejs-plain", "level": "80" },
+
+      { "name": "PHP", "class": "devicon-php-plain", "level": "50" },
+      { "name": "GitHub", "class": "devicon-github-original", "level": "95" },
+
+      { "name": "Webpack", "class": "devicon-webpack-plain", "level": "70" },
+      { "name": "MongoDb", "class": "devicon-mongodb-plain", "level": "75" },
+      { "name": "Heroku", "class": "devicon-heroku-original", "level": "75" },
+      { "name": "Git", "class": "devicon-git-plain", "level": "75" },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
