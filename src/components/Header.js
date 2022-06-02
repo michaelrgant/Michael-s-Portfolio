@@ -5,7 +5,7 @@ import Typical from "react-typical";
 import Switch from "react-switch";
 
 class Header extends Component {
- info = [];
+  info = [];
 
   constructor() {
     super();
@@ -35,19 +35,21 @@ class Header extends Component {
   render() {
     let name;
     if (this.props.information) {
-     this.info =
+      this.info =
         this.props.information.basic_info &&
         this.props.information.basic_info.titles
           .map((x) => [x.toUpperCase(), 1500])
-         .flat();
-       name =
-        this.props.information.basic_info && this.props.information.basic_info.name;
+          .flat();
+      name =
+        this.props.information.basic_info &&
+        this.props.information.basic_info.name;
     }
-
 
     const HeaderTitleTypeAnimation = React.memo(
       () => {
-        return <Typical className="title-styles" steps={this.info} loop={500} />;
+        return (
+          <Typical className="title-styles" steps={this.info} loop={500} />
+        );
       },
       (props, prevProp) => true
     );
@@ -119,7 +121,11 @@ class Header extends Component {
             >
               Contact Me
             </button>
-            <a href="https://drive.google.com/file/d/1IgqdX24Mx22ZHxV-gcmUOaHGZ4YDK8Dm/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1IgqdX24Mx22ZHxV-gcmUOaHGZ4YDK8Dm/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="contact_btn resume">My Resume</button>
             </a>
           </div>
@@ -128,8 +134,6 @@ class Header extends Component {
     );
   }
 }
-
-
 
 const mapState = (state) => {
   return {
